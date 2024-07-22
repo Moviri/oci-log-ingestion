@@ -22,9 +22,10 @@ This OCI function was created to work alongside the Oracle Cloud Infrastructure 
 1. In the OCI portal, navigate to Applications.
 ![Image 5](images/image-4.png)
 2. Select an existing application or click **Create Application** and give it a name.
+![alt text](images/image-16.png)
 3. Create a new OCI function within your application and give it a name. 
-![Image 6](images/oci_functions.PNG)
 4. We recommend using the Oracle Code Editor to create your custom function. 
+![Image 6](images/oci_functions.PNG)
 5. Once the Code Editor is open, select **Create from code repository** and enter a function name and the url to the [Github repository](https://github.com/Moviri/oci-log-ingestion). 
 ![Image 7](images/image-7.png)
 ![Image 8](images/image-9.png)
@@ -33,6 +34,9 @@ This OCI function was created to work alongside the Oracle Cloud Infrastructure 
 ![Image 9](images/image-10.png)
 7. Follow the instructions on the **Getting started** page under your application. Use the cloned repository instead of the example function in the instructions. This can be done in the code editor's terminal instead of a separate cloud shell.
 ![Image 10](images/image-11.png) 
+8. After completeing the commands in the **Getting started** tab, you should see your image under the **Container registry** page.
+![alt text](images/image-15.png)
+
 
 **OCI connector**
 1. In the OCI portal, search for **Connectors**
