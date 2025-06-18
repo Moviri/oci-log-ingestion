@@ -7,6 +7,8 @@ from typing import Dict, Optional
 from dynatrace_client import DynatraceClient
 from urllib.parse import quote
 
+from dynatrace_client import DynatraceClient
+
 LOG_INGEST_ENDPOINT = "/api/v2/logs/ingest"
 
 def process_log_line(body):
